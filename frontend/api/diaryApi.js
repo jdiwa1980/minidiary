@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:1459/api/diary";
+// const API_URL = "http://localhost:1459/api/diary";
+
+const API_URL =`${import.meta.env.VITE_API_URL}/diary`;
 
 const getToken = () => localStorage.getItem("token");
 
