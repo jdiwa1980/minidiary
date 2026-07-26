@@ -41,7 +41,7 @@ const Register = () => {
                 navigate("/login")
             }, 2000);
 
-            formData = null
+            // formData = null
             
         } catch (err) {
             console.error(err.response)
