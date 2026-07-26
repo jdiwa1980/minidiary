@@ -47,7 +47,7 @@ const loginUser = async (req, res) => {
 
 
     } catch (err) {
-
+        console.error(err)
     }
 
 }
