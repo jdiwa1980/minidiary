@@ -21,12 +21,12 @@ app.use(express.json()); //middleware to prepare request. parses json
 app.use("/api/diary", require("./routes/diaryRoutes"));
 app.use("/api/auth", authRoutes)
 
-app.get("/version", (req, res) => {
-    res.json({
-        version: "July 25 5:15AM",
-        message: "hello world",
-    });
-});
+// app.get("/version", (req, res) => {
+//     res.json({
+//         version: "July 25 5:15AM",
+//         message: "hello world",
+//     });
+// });
 
 
 
